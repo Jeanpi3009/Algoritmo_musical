@@ -10,19 +10,19 @@ function ChoirSong(numberUser) {
             let song6 = [' sin miedo ', ' sin anestesia ', ' en el piso ', ' contra la pared ', ' sin compromiso '];
             //utilizamos el metodo Random para generar una lista al azar
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence6 = song1[random];
+            let rhyme6 = song1[random];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence7 = song2[random];
+            let rhyme7 = song2[random];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence8 = song3[random];
+            let rhyme8 = song3[random];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence9 = song4[random];
+            let rhyme9 = song4[random];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence10 = song5[random];
+            let rhyme10 = song5[random];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence11 = song6[random];
+            let rhyme11 = song6[random];
 
-            console.log(sentence6, sentence7, sentence8, sentence9, sentence10, sentence11);
+            console.log(rhyme6, rhyme7, rhyme8, rhyme9, rhyme10, rhyme11);
             // declaramos unos valores predeterminados a dicha lista para ordenar y desordenar los numeros
             var uno = 0;
             var dos = 0;
@@ -45,16 +45,16 @@ function ChoirSong(numberUser) {
                 }
             } while (n < 3);
             // nuevamente utilizamos el metodo Ramdon para generar lo que seria el coro de la cancion
-            let sentence1 = song3[uno];
-            let sentence2 = song3[dos];
-            let sentence3 = song3[tres];
+            let rhyme1 = song3[uno];
+            let rhyme2 = song3[dos];
+            let rhyme3 = song3[tres];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence4 = song5[random];
+            let rhyme4 = song5[random];
             var random = Math.round(Math.random() * (4 - 1) + 1);
-            let sentence5 = song4[random];
+            let rhyme5 = song4[random];
             for (var a = 0; a < numberUser; a++) {
 
-                console.log(sentence1, sentence2, sentence3, sentence4, sentence5);
+                console.log(rhyme1, rhyme2, rhyme3, rhyme4, rhyme5);
             }
 
         } else {
